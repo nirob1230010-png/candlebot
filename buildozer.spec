@@ -9,7 +9,7 @@ source.exclude_dirs = bin,venv,.buildozer,__pycache__
 
 version = 1.0
 
-requirements = python3,kivy,requests,websockets,plyer
+requirements = python3,kivy==2.2.1,requests,websockets,plyer
 
 orientation = portrait
 fullscreen = 0
