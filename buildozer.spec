@@ -9,7 +9,7 @@ source.exclude_dirs = bin,venv,.buildozer,__pycache__
 
 version = 1.0
 
-requirements = python3,kivy==2.2.1,requests,websockets,plyer
+requirements = python3==3.10.10,kivy==2.2.1,requests,websockets,plyer
 
 orientation = portrait
 fullscreen = 0
@@ -26,7 +26,7 @@ android.debug_artifact = apk
 android.logcat_filters = *:S python:D
 
 p4a.bootstrap = sdl2
-p4a.branch = develop
+p4a.branch = master
 
 [buildozer]
 log_level = 2
